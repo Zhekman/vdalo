@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags always come first-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- Bootstrap--><link href="vendor/bootstrap/dist/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<script async src="simple-webp.min.js"></script>
+    <!-- App styles-->
+    <link href="css/app.css" type="text/css" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries--><!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+<script async src="simple-webp.min.js"></script>
+    <title>Vdalo</title>
+  </head>
+  <body>
+    <header class="overflow-hidden" id="header">
+      <div class="container-fluid header">
+        <div class="row menu__wrapper container align-items-center">
+          <div class="col-2 logo__top"><a href="#header"><img src="../images/logo.png" alt=""></a></div>
+          <ul class="col-6 menu__wrapper d-flex justify-content-between">
+            <li class="menu__item"><a href="#preferences">Про нас</a></li>
+            <li class="menu__item"><a href="#cost">Вартість</a></li>
+            <li class="menu__item"><a href="#testimonials">Відгуки</a></li>
+            <li class="menu__item"><a href="#faq">FAQ</a></li>
+            <li class="menu__item"><a href="#adress">Контакти</a></li>
+          </ul>
+          <ul class="col-3 phones__wrapper">
+            <li class="phone__item"><a class="ml-2" href="tel:0505150001">(050) 515 00 01</a></li>
+            <li class="phone__item"><a href="tel:0675150001">(067) 515 00 01</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div class="row header__content container circle-blue-1 circle-grey-1 position-relative">
+      <div class="col-md header__text position-relative">
+        <h1 class="row header__title">Вдало скласти ЗНО - не проблема!</h1>
+        <p class="row header__subtitle">Гарантовано покращте свої результати, завдяки ефективній підготовці з нашими викладачами 200 бальниками та вступіть до ВНЗ вашої мрії.</p>
+      </div>
+      <div class="col-md header__img"><img src="../images/header-img.png" alt=""></div>
+    </div>
+    <div class="circle-grey-2"></div><div class="b-nav">
+<li><a class="b-link" href="#preferences" >Про нас</a></li>
+<li><a class="b-link" href="#cost" >Вартість</a></li>
+<li><a class="b-link" href="#testimonials" >Відгуки</a></li>
+<li><a class="b-link" href="#faq" >FAQ</a></li>
+<li><a class="b-link" href="#adress" >Контакти</a></li>
+</div>
+<!-- Burger-Icon -->
+<div class="b-container d-lg-none fixed">
+<div class="b-menu">
+<div class="b-bun b-bun--top"></div>
+<div class="b-bun b-bun--mid"></div>
+<div class="b-bun b-bun--bottom"></div>
+</div>
+<!-- Burger-Brand -->
+<a href="#" class="b-brand">
+</a>
+</div><a class="chat container justify-content-center" href="#"><svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M26.4622 17.1571C26.2322 16.5881 25.5844 16.3132 25.0154 16.5433C24.4464 16.7733 24.1716 17.4211 24.4016 17.9901L25.7104 21.2276L21.8233 19.514C21.5419 19.39 21.2217 19.3881 20.9389 19.5088C19.6104 20.0756 18.1873 20.363 16.7091 20.363C10.7597 20.363 6.76308 15.7047 6.76308 11.354C6.76308 6.38642 11.2248 2.34501 16.7091 2.34501C22.1933 2.34501 26.6551 6.38642 26.6551 11.354C26.6551 11.7415 26.619 12.2056 26.5561 12.6271C26.4656 13.2342 26.8842 13.7996 27.4913 13.8902C28.0984 13.981 28.6639 13.5621 28.7544 12.9551C28.8339 12.4222 28.8777 11.8536 28.8777 11.354C28.8777 8.33517 27.5994 5.50262 25.278 3.37812C22.9842 1.27867 19.941 0.122437 16.7091 0.122437C13.4771 0.122437 10.434 1.27867 8.14013 3.37806C6.0658 5.27658 4.82516 7.74075 4.58451 10.3978C1.97538 12.1256 0.428748 14.8943 0.428748 17.8766C0.428748 19.7396 1.01567 21.5072 2.13291 23.0284L0.509761 27.0436C0.340234 27.4629 0.44175 27.9431 0.766523 28.2579C0.978168 28.4632 1.25704 28.5714 1.54026 28.5714C1.69156 28.5714 1.84414 28.5405 1.98827 28.477L6.6684 26.4139C7.84569 26.8521 9.09017 27.074 10.3747 27.074C10.4025 27.074 10.4298 27.0718 10.457 27.0698C12.315 27.0557 14.1212 26.567 15.6855 25.6525C17.0868 24.8333 18.2394 23.7079 19.0475 22.3788C19.8364 22.2371 20.6075 22.0231 21.356 21.737L27.3181 24.3652C27.4623 24.4287 27.6148 24.4597 27.7661 24.4597C28.0493 24.4596 28.3282 24.3514 28.5399 24.1462C28.8647 23.8313 28.9662 23.3512 28.7967 22.9318L26.4622 17.1571ZM10.3748 24.8486C10.3596 24.8486 10.3449 24.8502 10.3298 24.8508C9.19507 24.8451 8.1029 24.622 7.08291 24.1868C6.80014 24.0661 6.47992 24.068 6.19854 24.1921L3.59608 25.3393L4.4356 23.2626C4.59079 22.8787 4.51961 22.4403 4.25102 22.1252C3.20446 20.8974 2.65132 19.4283 2.65132 17.8766C2.65132 16.1007 3.39838 14.4181 4.70548 13.1422C5.11243 15.3606 6.26067 17.4827 7.99277 19.1498C10.1482 21.2241 12.9992 22.4259 16.0777 22.5706C14.6324 23.9933 12.564 24.8486 10.3748 24.8486Z" fill="#233670"/>
+<path d="M16.6533 12.5133C17.267 12.5133 17.7646 12.0157 17.7646 11.402C17.7646 10.7882 17.267 10.2907 16.6533 10.2907C16.0395 10.2907 15.542 10.7882 15.542 11.402C15.542 12.0157 16.0395 12.5133 16.6533 12.5133Z" fill="#233670"/>
+<path d="M21.0983 12.5133C21.7121 12.5133 22.2096 12.0157 22.2096 11.402C22.2096 10.7882 21.7121 10.2907 21.0983 10.2907C20.4846 10.2907 19.9871 10.7882 19.9871 11.402C19.9871 12.0157 20.4846 12.5133 21.0983 12.5133Z" fill="#233670"/>
+<path d="M12.2082 12.5133C12.822 12.5133 13.3195 12.0157 13.3195 11.402C13.3195 10.7882 12.822 10.2907 12.2082 10.2907C11.5945 10.2907 11.0969 10.7882 11.0969 11.402C11.0969 12.0157 11.5945 12.5133 12.2082 12.5133Z" fill="#233670"/></a></svg>
+    <section class="questions__section position-relative overflow-hidden">
+      <div class="row questions__wrapper container d-flex flex-column">
+        <h2 class="subtitle text-white row container">Запишіться на перше безкоштовне заняття! </h2>
+        <input class="row questions__form-name" type="text" placeholder="Ваше ім’я">
+        <input class="row questions__form-phone" type="text" placeholder="Номер телефону">
+        <button class="btn questions__btn" id="myBtn">Записатись</button>
+        <p class="color"> <span>90% </span>учнів залишаються з нами після пробного заняття, переконайтесь і ви. </p>
+        <div id="totop"><a class="totop container justify-content-center" href="#"><svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="24.7488" y="15.5564" width="19" height="3" rx="1.5" transform="rotate(-135 24.7488 15.5564)" fill="#233670"/>
+<rect x="15.5564" y="2.12134" width="19" height="3" rx="1.5" transform="rotate(135 15.5564 2.12134)" fill="#233670"/></a></div>
+      </div></svg>
+      <div class="circle__yellow-1"> </div>
+      <div class="circle-blue-2"></div>
+      <div class="circle-grey-3"></div>
+      <div class="circle-grey-4"></div>
+    </section>
+    <section class="container-fluid position-relative" id="preferences">
+      <h2 class="container">Ви досягнете бажаного результату, тому що VDALO це - </h2>
+      <div class="col preferences__items-wrapper container">
+        <div class="row">
+          <div class="col-md preferences__item">
+            <p>Сучасні методології та врахування усіх вимог офіційної програми ЗНО</p>
+          </div>
+          <div class="col-md preferences__item">
+            <p>Ретельний відбір викладачів-практиків, які здали ЗНО на 195+ балів</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md preferences__item">
+            <p>Індивідуальна робота з кожним учнем, адже заняття проходят у невеликих групах</p>
+          </div>
+          <div class="col-md preferences__item">
+            <p>Можливість задати питання і отримати детальне пояснення від викладача в будь який час за допомогою месенджерів</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md preferences__item">
+            <p>Регулярні зрізи знань та пробні ЗНО для відстеження прогресу учня</p>
+          </div>
+          <div class="col-md preferences__item">
+            <p>Сучасно обладнані, комфортні, затишні та світлі аудиторії, недалеко від метро</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md preferences__item">
+            <p>Приділення уваги моральному стану, адже часто причиною поганого результату є хвилюванная і невпевненість</p>
+          </div>
+          <div class="col-md preferences__item">
+            <p>Атмосфера дружелюбності, затишку і натхнення, не схожа на жодну школу або курси</p>
+          </div>
+        </div>
+      </div>
+      <div class="circle-grey-5"></div>
+      <div class="circle-blue-3"></div>
+    </section>
+    <section class="effective position-relative">
+      <div class="container-lg">
+        <h2 class="row effective__title container">Підготовка, яка довела свою ефективність</h2>
+        <p class="row effective__text">Що може бути об`єктивніше за цифри?</p>
+        <div class="row effective__items-wrapper">
+          <div class="col effective__item">
+            <div class="row effective__item-title m-top">180</div>
+            <div class="row effective__item-text">Середній бал наших учнів, що на 41 бал вище ніж в середньому по Україні</div>
+          </div>
+          <div class="col effective__item">
+            <div class="row effective__item-title">+55</div>
+            <div class="row effective__item-text">Балів - середній прогрес учнів за час навчання</div>
+          </div>
+          <div class="col effective__item">
+            <div class="row effective__item-title m-top">90%</div>
+            <div class="row effective__item-text">Учнaів залишаються навчатися з нами аж до самих іспитів</div>
+          </div>
+          <div class="col effective__item">
+            <div class="row effective__item-title">76%</div>
+            <div class="row effective__item-text">Учнів вступають на бюджет</div>
+          </div>
+        </div>
+      </div>
+      <div class="circle-grey-6"></div>
+    </section>
+    <section class="teachers">
+      <div class="container">
+        <h2 class="row text-white teachers__header">Наші викладачі</h2>
+        <p class="row teachers__text">Більше ніяких нудних уроків і сухої теорії, яка не дає результатів. Наші викладачі вже пройшли весь шлях і як ніхто інший знають, як потрібно готуватися щоб здати ЗНО на бажаний бал. Між ними і учнями немає прірви, вони спілкуються однією мовою і прекрасно розуміють один одного.</p>
+      </div>
+    </section>
+    <section class="teachers__slider position-relative">
+      <div class="teachers__slider-wrapper container mb-0">
+        <div class="teachers__slider-item d-flex align-items-center">
+          <div class="col teachers__slider-img"><img src="images/Teachers-slider.png" alt=""></div>
+          <div class="col teachers__slider-text-inner"> 
+            <div class="row teachers__slider-text-title">Анастасія Бука</div>
+            <div class="row teachers__slider-text-subtitle">Українська мова</div>
+            <div class="row teachers__slider-text">Разом дізнаємось, чому не ревуть воли, як ясла повні, та як це використати у власному висловленні</div>
+          </div>
+        </div>
+        <div class="teachers__slider-item d-flex align-items-center">
+          <div class="col teachers__slider-img"><img src="images/Teachers-slider.png" alt=""></div>
+          <div class="col teachers__slider-text-inner"> 
+            <div class="row teachers__slider-text-title">Анастасія Бука</div>
+            <div class="row teachers__slider-text-subtitle">Українська мова</div>
+            <div class="row teachers__slider-text">Разом дізнаємось, чому не ревуть воли, як ясла повні, та як це використати у власному висловленні</div>
+          </div>
+        </div>
+        <div class="teachers__slider-item d-flex align-items-center">
+          <div class="col teachers__slider-img"><img src="images/Teachers-slider.png" alt=""></div>
+          <div class="col teachers__slider-text-inner"> 
+            <div class="row teachers__slider-text-title">Анастасія Бука</div>
+            <div class="row teachers__slider-text-subtitle">Українська мова</div>
+            <div class="row teachers__slider-text">Разом дізнаємось, чому не ревуть воли, як ясла повні, та як це використати у власному висловленні</div>
+          </div>
+        </div>
+      </div>
+      <div class="circle-blue-4"></div>
+    </section>
+    <section class="position-relative" id="cost">
+      <div class="circle-yellow-2"> </div>
+      <div class="container-lg">
+        <div class="circle-blue-5"></div>
+        <h2 class="row effective__title">Вартість</h2>
+        <div class="row cost__subjects">
+          <div class="col-lg-7 lessons_list-wrapper d-lg-flex">
+            <ul class="col lessons_list">
+              <li class="lessons_list-item">Українська мова та література</li>
+              <li class="lessons_list-item">Математика</li>
+              <li class="lessons_list-item">Історія України</li>
+              <li class="lessons_list-item">Англійська мова</li>
+            </ul>
+            <ul class="col-4 lessons_list">
+              <li class="lessons_list-item">Географія</li>
+              <li class="lessons_list-item">Біологія</li>
+              <li class="lessons_list-item">Фізика</li>
+              <li class="lessons_list-item">Хімія</li>
+            </ul>
+          </div>
+          <div class="col subscription__text">Термін абонeменту - 1 місяць 2 рази на тиждень (8-10 занять) Тривалість заняття - 90 хв</div>
+        </div>
+        <div class="row tarrifs__wrapper">
+          <div class="col tariffs__item"><span class="tariffs__circle">1</span>
+            <div class="row tariffs__suptitle">предмет на вибір</div>
+            <div class="row tariffs__title align-items-baseline"> 1440 <span>грн/міс</span></div>
+            <div class="row tariffs__subtitle">від 144 грн/заняття</div>
+          </div>
+          <div class="col tariffs__item"><span class="tariffs__circle">2</span>
+            <div class="row tariffs__suptitle">предмет на вибір</div>
+            <div class="row tariffs__title align-items-baseline">2720 <span>грн/міс</span></div>
+            <div class="row old__price">2880 грн/міс</div>
+            <div class="row tariffs__subtitle">від 136 грн/заняття</div>
+          </div>
+          <div class="col tariffs__item"><span class="tariffs__circle yellow">3</span>
+            <div class="row tariffs__suptitle">предмет на вибір</div>
+            <div class="row tariffs__title align-items-baseline">3840 <span>грн/міс</span></div>
+            <div class="row old__price">4320 грн/міс</div>
+            <div class="row tariffs__subtitle yellow">від 128 грн/заняття</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="col stock">
+      <div class="container-lg d-flex align-items-center stock__wrapper">
+        <div class="col-lg-6 stock__text">
+          <div class="row stock__text-title">Встигніть записатися до 1 вересня і отримайте знижку</div>
+          <div class="row stock__text-text">
+            <p>Кількість місць, за спеціальною ціною - обмежено.</p><span class="ml-1"> Час діяти!</span>
+          </div>
+        </div>
+        <div class="col stock__percent">10%</div>
+        <button class="col btn stock_btn" id="myBtn">Забронювати ціну</button>
+      </div>
+    </div>
+    <section class="position-relative" id="advantages">
+      <div class="circle-grey-7"></div>
+      <div class="circle-yellow-3"></div>
+      <div class="container">
+        <h2 class="advantages__title">Не тільки групові заняття</h2>
+        <p class="advantages__discription">Ви матимете можливість відвідувати додаткові формати підготовки до ЗНО, які вже довели свою ефективність.</p>
+        <div class="row advantages__items-wrapper justify-content-between">
+          <div class="col-sm-6 advantages__item">
+            <div class="advantages__item-title">Кіно-вечори</div>
+            <div class="advantages__item-text">Часто, за допомогою мистецтва засвоїти матеріал набагато простіше. Готуйтесь до перегляду фільмів на великому екрані під гарячий чай та печиво.</div>
+          </div>
+          <div class="col-sm-6 advantages__item">
+            <div class="advantages__item-title">Пробні ЗНО</div>
+            <div class="advantages__item-text">Періодично ми проводимо пробне тестування за всіма правилами і складовими справжнього ЗНО. Це можливість перевірити свої знання і підготуватися морально до атмосфери майбутнього іспиту.</div>
+          </div>
+          <div class="col-sm-6 advantages__item">
+            <div class="advantages__item-title">Воркшопи</div>
+            <div class="advantages__item-text">Пів року підготовки вже позаду? Саме час закріпити пройдений матеріал по кожному предмету на 6 годинних заняттях, з перервами. Тільки все найважливіше і найскладніше.</div>
+          </div>
+          <div class="col-sm-6 advantages__item">
+            <div class="advantages__item-title">Інтенсиви</div>
+            <div class="advantages__item-text">Коли до ЗНО залишається вже дуже мало часу - потрібно стисло все повторити і приділити увагу найважчим темам. Це останній крок перед іспитом - 9 годин інтенсивної підготовки за декілька днів.</div>
+          </div>
+          <div class="col-sm-6 advantages__item">
+            <div class="advantages__item-title">Індивідуальні заняття</div>
+            <div class="advantages__item-text">Займайтесь з викладачами додатково, якщо потрібно підтягнути якусь тему.</div>
+          </div>
+          <div class="col-sm-6 advantages__item">
+            <div class="advantages__item-title">Безкоштовні майстер-класи</div>
+            <div class="advantages__item-text">Ми ті, хто вже пройшли весь шлях, вдало склали іспит на 195+.. Тепер, ми час від часу ділимось своїм досвідом для всіх бажаючих.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="position-relative overflow-hidden" id="testimonials">
+      <div class="container-lg">
+        <h2 class="testimonials__title">Відгуки наших учнів </h2>
+      </div>
+      <div class="testimonials__slider-wrapper container-lg mb-0">
+        <div class="testimonials__slider-item d-flex align-items-center">
+          <div class="col-5 testimonials__slider-img"><img src="images/student-1.jpg" alt=""></div>
+          <div class="col testimonials__slider-text-inner"> 
+            <div class="row testimonials__slider-text-title">Карпенко Андрій</div>
+            <div class="row testimonials__slider-text-subtitle">Українська мова</div>
+            <div class="row testimonials__slider-text">Разом дізнаємось, чому не ревуть воли, як ясла повні, та як це використати у власному висловленні</div>
+            <div class="row card__socials-wrapper"><a href="#"> <img src="images/facebook.png" alt=""></a><a href="#"> <img src="images/instagram.png" alt=""></a></div>
+          </div>
+        </div>
+        <div class="testimonials__slider-item d-flex align-items-center">
+          <div class="col-5 testimonials__slider-img"><img src="images/student-2.jpg" alt=""></div>
+          <div class="col testimonials__slider-text-inner"> 
+            <div class="row testimonials__slider-text-title">Карпенко Андрій</div>
+            <div class="row testimonials__slider-text-subtitle">Українська мова</div>
+            <div class="row testimonials__slider-text">Разом дізнаємось, чому не ревуть воли, як ясла повні, та як це використати у власному висловленні</div>
+            <div class="row card__socials-wrapper"><a href="#"> <img src="images/facebook.png" alt=""></a><a href="#"> <img src="images/instagram.png" alt=""></a></div>
+          </div>
+        </div>
+        <div class="testimonials__slider-item d-flex align-items-center">
+          <div class="col-5 testimonials__slider-img"><img src="images/student-1.jpg" alt=""></div>
+          <div class="col testimonials__slider-text-inner"> 
+            <div class="row testimonials__slider-text-title">Карпенко Андрій</div>
+            <div class="row testimonials__slider-text-subtitle">Українська мова</div>
+            <div class="row testimonials__slider-text">Разом дізнаємось, чому не ревуть воли, як ясла повні, та як це використати у власному висловленні</div>
+            <div class="row card__socials-wrapper"><a href="#"> <img src="images/facebook.png" alt=""></a><a href="#"> <img src="images/instagram.png" alt=""></a></div>
+          </div>
+        </div>
+        <div class="testimonials__slider-item d-flex align-items-center">
+          <div class="col-5 testimonials__slider-img"><img src="images/student-2.jpg" alt=""></div>
+          <div class="col testimonials__slider-text-inner"> 
+            <div class="row testimonials__slider-text-title">Карпенко Андрій</div>
+            <div class="row testimonials__slider-text-subtitle">Українська мова</div>
+            <div class="row testimonials__slider-text">Разом дізнаємось, чому не ревуть воли, як ясла повні, та як це використати у власному висловленні</div>
+            <div class="row card__socials-wrapper"><a href="#"> <img src="images/facebook.png" alt=""></a><a href="#"> <img src="images/instagram.png" alt=""></a></div>
+          </div>
+        </div>
+      </div>
+      <div class="circle-grey-8"></div>
+      <div class="circle-grey-9"></div>
+      <div class="circle-blue-7"></div>
+      <div class="dots-horiz-1"></div>
+      <div class="dots-vert-1"></div>
+      <div class="circle-blue-8"></div>
+    </section>
+    <section class="position-relative overflow-hidden" id="choice">
+      <div class="container-lg">
+        <h2 class="choice__header-text d-flex justify-content-center">Зробіть правильний вибір</h2>
+        <table class="table table-striped table-responsive-lg">
+          <thead>
+            <tr class="table__blue">
+              <th> </th>
+              <th class="text-center" scope="col"> <img class="logo__table" src="images/logo.png" alt=""></th>
+              <th scope="col">На курсах при ВНО</th>
+              <th class="text-center" scope="col">З репетитором</th>
+              <th scope="col">Самостійно</th>
+            </tr>
+            <tr>
+              <th>Сучасні методики викладання за чинними навчальними програмами</th>
+              <th class="text-center" scope="col"> <img class="logo__table" src="images/frame.png" alt=""></th>
+              <th class="text-center" scope="col"> <img class="logo__table" src="images/quest-mark.png" alt=""></th>
+              <th class="text-center" scope="col"><img class="logo__table" src="images/quest-mark.png" alt=""></th>
+              <th class="text-center" scope="col"><img class="logo__table" src="images/dash.png" alt=""></th>
+            </tr>
+            <tr class="table__blue">
+              <th>Різні формати підготовки</th>
+              <th class="text-center" scope="col"><img class="logo__table" src="images/frame.png" alt=""></th>
+              <th class="text-center" scope="col"><img class="logo__table" src="images/dash.png" alt=""></th>
+              <th class="text-center" scope="col"><img class="logo__table" src="images/quest-mark.png" alt=""></th>
+              <th class="text-center" scope="col"><img class="logo__table" src="images/dash.png" alt=""></th>
+            </tr>
+            <tr>
+              <th>Індивідуальний підхід до кожного</th>
+              <th class="text-center" scope="col"><img class="logo__table" src="images/frame.png" alt=""></th>
+              <th class="text-center" scope="col"><img class="logo__table" src="images/dash.png" alt=""></th>
+              <th class="text-center" scope="col"><img class="logo__table" src="images/frame.png" alt=""></th>
+              <th class="text-center" scope="col"><img class="logo__table" src="images/dash.png" alt=""></th>
+            </tr>
+            <tr class="table__blue">
+              <th>Відстеження прогрессу учнів</th>
+              <th class="text-center" scope="col"><img class="logo__table" src="images/frame.png" alt=""></th>
+              <th class="text-center" scope="col"><img class="logo__table" src="images/dash.png" alt=""></th>
+              <th class="text-center" scope="col"><img class="logo__table" src="images/quest-mark.png" alt=""></th>
+              <th class="text-center" scope="col"><img class="logo__table" src="images/dash.png" alt=""></th>
+            </tr>
+            <tr>
+              <th>Проведення пробних ЗНО в умовах, наближених до реальних</th>
+              <th class="text-center" scope="col"><img class="logo__table" src="images/frame.png" alt=""></th>
+              <th class="text-center" scope="col"><img class="logo__table" src="images/dash.png" alt=""></th>
+              <th class="text-center" scope="col"><img class="logo__table" src="images/dash.png" alt=""></th>
+              <th class="text-center" scope="col"><img class="logo__table" src="images/dash.png" alt=""></th>
+            </tr>
+            <tr class="table__blue">
+              <th>Психологічна підтримка учня</th>
+              <th class="text-center" scope="col"><img class="logo__table" src="images/frame.png" alt=""></th>
+              <th class="text-center" scope="col"><img class="logo__table" src="images/dash.png" alt=""></th>
+              <th class="text-center" scope="col"><img class="logo__table" src="images/quest-mark.png" alt=""></th>
+              <th class="text-center" scope="col"><img class="logo__table" src="images/dash.png" alt=""></th>
+            </tr>
+            <tr>
+              <th>Атмосфера натхнення, дружелюбності та взаємопідтримки</th>
+              <th class="text-center" scope="col"><img class="logo__table" src="images/frame.png" alt=""></th>
+              <th class="text-center" scope="col"><img class="logo__table" src="images/dash.png" alt=""></th>
+              <th class="text-center" scope="col"><img class="logo__table" src="images/dash.png" alt=""></th>
+              <th class="text-center" scope="col"><img class="logo__table" src="images/dash.png" alt=""></th>
+            </tr>
+            <tr class="table__blue">
+              <th>Постійний супровід і підтримка викладачів, навіть за межами аудиторії</th>
+              <th class="text-center" scope="col"><img class="logo__table" src="images/frame.png" alt=""></th>
+              <th class="text-center" scope="col"><img class="logo__table" src="images/dash.png" alt=""></th>
+              <th class="text-center" scope="col"><img class="logo__table" src="images/dash.png" alt=""></th>
+              <th class="text-center" scope="col"><img class="logo__table" src="images/dash.png" alt=""></th>
+            </tr>
+          </thead>
+        </table>
+        <div class="row swipe d-none"><img src="images/swipe.png" alt=""></div>
+      </div>
+      <div class="circle-yellow-7"></div>
+      <div class="circle-grey-10"></div>
+      <div class="circle-grey-11"></div>
+      <div class="circle-blue-9"></div>
+    </section>
+    <section class="position-relative" id="free__lesson">
+      <div class="container-fluid d-flex flex-column">
+        <h2 class="subtitle free__lesson-title container-lg">Перше заняття - безкоштовно!</h2>
+        <input class="row questions__form-white-name" type="text" placeholder="Ваше ім’я">
+        <input class="row questions__form-phone-lite" type="text" placeholder="Номер телефону">
+        <button class="btn questions__btn" id="myBtn">Записатись</button>
+        <p class="text-center">Ніяких ризиків - спочатку спробуйте, а потім приймайте рішення.</p>
+      </div>
+    </section>
+    <section class="position-relative overflow-hidden" id="insta">
+      <div class="container">
+        <div class="row insta__top">
+          <div class="insta__img"><img src="images/group.png" alt=""></div>
+          <div class="insta__title">Ми в Instagram</div>
+        </div>
+        <div class="row insta__top">
+          <div class="insta__im"><img src="images/instagram-y.png" alt=""><a class="insta__subtitle" href="">@vdalo.zno</a></div>
+        </div>
+        <div class="row insta__img-wrapper">
+          <div class="col-sm-6 insta__gall-img"><img src="images/insta-1.jpg" alt=""></div>
+          <div class="col-sm-6 insta__gall-img"><img src="images/insta-2.jpg" alt=""></div>
+          <div class="col-sm-6 insta__gall-img"><img src="images/insta-3.jpg" alt=""></div>
+          <div class="col-sm-6 insta__gall-img"><img src="images/insta-4.jpg" alt=""></div>
+        </div>
+        <button class="btn questions__btn d-flex justify-content-center">Детальніше</button>
+      </div>
+      <div class="circle-yellow-4"></div>
+      <div class="circle-grey-12"></div>
+      <div class="dots-vert-2"></div>
+      <div class="dots-horiz-2"></div>
+      <div class="circle-grey-13"></div>
+    </section>
+    <section id="faq">
+      <div class="container-lg">
+        <h2 class="faq__title">FAQ</h2>
+        <h3 class="faq__subtitle">Часті запитання і відповіді на них</h3>
+        <div class="faq__wrapper">
+          <div class="questions__item-wrapper">
+            <button class="questions__item-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium optio fugit nihil et, non aliquid!<span class="question__number">1.</span></button>
+            <div class="questions__item-text">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          </div>
+          <div class="questions__item-wrapper">
+            <button class="questions__item-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium optio fugit nihil et, non aliquid!<span class="question__number">2.</span></button>
+            <div class="questions__item-text">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          </div>
+          <div class="questions__item-wrapper">
+            <button class="questions__item-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium optio fugit nihil et, non aliquid!<span class="question__number">3.</span></button>
+            <div class="questions__item-text">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          </div>
+          <div class="questions__item-wrapper">
+            <button class="questions__item-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium optio fugit nihil et, non aliquid!<span class="question__number">4.</span></button>
+            <div class="questions__item-text">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          </div>
+          <div class="questions__item-wrapper">
+            <button class="questions__item-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium optio fugit nihil et, non aliquid!<span class="question__number">5.</span></button>
+            <div class="questions__item-text">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="circle-blue-10"></div>
+      <div class="dots-vert-3"></div>
+      <div class="circle-grey-14"></div>
+      <div class="circle-grey-15"></div>
+      <div class="circle-yellow-5"></div>
+    </section>
+    <section id="questions__last">
+      <div class="container-lg">
+        <div class="row questions__last-wrapper">
+          <div class="col-md questions__last-img d-flex flex-column"><img src="images/questions-last.png" alt=""></div>
+          <div class="col-md questions__last-text-wrapper"> 
+            <h2 class="row questions__last-title">Залишилися питання?</h2>
+            <p class="row questions__last-subtitle">Залиште заявку і ми зв’яжемось з вами найближчим часом</p>
+            <input class="row input__vdalo" type="email" placeholder="Ваше ім’я">
+            <input class="row input__vdalo" type="text" placeholder="Номер телефону">
+            <div class="col form__check">
+              <div class="check__item d-flex align-items-center">
+                <input class="form-check-input" type="radio" name="radio" value="option1" for="radio1">
+                <label class="form-check-label" for="radio1">Телефонуйте</label>
+              </div>
+              <div class="check__item d-flex align-items-center">
+                <input class="form-check-input" type="radio" name="radio" value="option2" checked for="radio2">
+                <label class="form-check-label" for="radio2">Пишіть у </label><b>Telegram</b>
+              </div>
+              <div class="check__item d-flex align-items-center">
+                <input class="form-check-input" type="radio" name="radio" value="option3" for="radio3">
+                <label class="form-check-label" for="radio3">Пишіть у </label><b>Viber</b>
+              </div>
+            </div>
+            <button class="btn questions__btn d-flex justify-content-center" id="myBtn">Залишити заявку</button>
+          </div>
+        </div>
+        <p class="questions__last-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<a href="">Далі</a></p>
+      </div>
+      <div class="circle-grey-16"></div>
+    </section>
+    <section class="container-fluid" id="adress">
+      <div class="map__wrapper d-flex justify-content-between"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60545.249842857964!2d-69.98189941915301!3d18.48012053864195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf89f1107ea5ab%3A0xd6c587b82715c164!2z0KHQsNC90YLQvi3QlNC-0LzRltC90pHQviwg0JTQvtC80ZbQvdGW0LrQsNC90YHRjNC60LAg0KDQtdGB0L_Rg9Cx0LvRltC60LA!5e0!3m2!1suk!2sua!4v1600328542548!5m2!1suk!2sua" max-width="968" width="49.5%"  height="600" frameborder="10px" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57468.73057440194!2d-80.17516094784544!3d25.810314574672944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9a6172bfeddb9%3A0x37be1741259463eb!2z0JzQsNGP0LzRli3QkdGW0YcsINCk0LvQvtGA0LjQtNCwLCDQodC_0L7Qu9GD0YfQtdC90ZYg0KjRgtCw0YLQuCDQkNC80LXRgNC40LrQuA!5e0!3m2!1suk!2sua!4v1600328463275!5m2!1suk!2sua" max-width="968" width="49.5%"  height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+    </section>
+    <footer class="row-lg bottom__adress-wrapper">
+      <div class="container">
+        <div class="row-lg col-sm d-lg-flex adress__column">
+          <div class="col"><img class="bottom__logo row" src="images/logo.png" alt="">
+            <div class="row socials__wrapper"></div>
+            <ul class="row list-unstyled">
+              <li class="social__item"><a href="#"><svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M25 12C25 5.3736 19.4025 0 12.5 0C5.5975 0 0 5.3736 0 12C0 18.6264 5.5975 24 12.5 24C12.5734 24 12.6465 23.9985 12.7197 23.9973V14.6558H10.0342V11.6512H12.7197V9.44019C12.7197 6.87598 14.3503 5.48035 16.733 5.48035C17.874 5.48035 18.8547 5.56201 19.1406 5.59845V8.27838H17.4976C16.2014 8.27838 15.9504 8.86981 15.9504 9.73755V11.6512H19.0498L18.6459 14.6558H15.9504V23.5364C21.1752 22.0984 25 17.4774 25 12Z" fill="#475FA9"/>
+</svg></a></li>
+              <li class="social__item"><a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M14.2969 12C14.2969 13.2686 13.2686 14.2969 12 14.2969C10.7314 14.2969 9.70312 13.2686 9.70312 12C9.70312 10.7314 10.7314 9.70312 12 9.70312C13.2686 9.70312 14.2969 10.7314 14.2969 12Z" fill="#475FA9"/>
+<path d="M17.3716 7.93573C17.2612 7.63654 17.085 7.36572 16.8561 7.14343C16.6339 6.91455 16.3632 6.7384 16.0638 6.62799C15.821 6.53369 15.4563 6.42145 14.7845 6.39087C14.0577 6.35773 13.8398 6.35059 12 6.35059C10.16 6.35059 9.94208 6.35754 9.21552 6.39069C8.5437 6.42145 8.17877 6.53369 7.93616 6.62799C7.63678 6.7384 7.36597 6.91455 7.14386 7.14343C6.91498 7.36572 6.73883 7.63635 6.62823 7.93573C6.53394 8.17853 6.42169 8.54346 6.39111 9.21527C6.35797 9.94183 6.35083 10.1597 6.35083 11.9998C6.35083 13.8396 6.35797 14.0575 6.39111 14.7842C6.42169 15.4561 6.53394 15.8208 6.62823 16.0636C6.73883 16.363 6.91479 16.6336 7.14368 16.8559C7.36597 17.0848 7.6366 17.2609 7.93597 17.3713C8.17877 17.4658 8.5437 17.5781 9.21552 17.6086C9.94208 17.6418 10.1598 17.6487 11.9998 17.6487C13.84 17.6487 14.0579 17.6418 14.7843 17.6086C15.4561 17.5781 15.821 17.4658 16.0638 17.3713C16.6648 17.1395 17.1398 16.6646 17.3716 16.0636C17.4659 15.8208 17.5781 15.4561 17.6089 14.7842C17.642 14.0575 17.649 13.8396 17.649 11.9998C17.649 10.1597 17.642 9.94183 17.6089 9.21527C17.5783 8.54346 17.4661 8.17853 17.3716 7.93573ZM12 15.5379C10.0457 15.5379 8.46149 13.9539 8.46149 11.9996C8.46149 10.0453 10.0457 8.46124 12 8.46124C13.9541 8.46124 15.5383 10.0453 15.5383 11.9996C15.5383 13.9539 13.9541 15.5379 12 15.5379ZM15.6782 9.14825C15.2216 9.14825 14.8513 8.77802 14.8513 8.32135C14.8513 7.86469 15.2216 7.49445 15.6782 7.49445C16.1349 7.49445 16.5051 7.86469 16.5051 8.32135C16.5049 8.77802 16.1349 9.14825 15.6782 9.14825Z" fill="#475FA9"/>
+<path d="M12 0C5.3736 0 0 5.3736 0 12C0 18.6264 5.3736 24 12 24C18.6264 24 24 18.6264 24 12C24 5.3736 18.6264 0 12 0ZM18.8491 14.8409C18.8157 15.5744 18.6991 16.0752 18.5288 16.5135C18.1708 17.4391 17.4391 18.1708 16.5135 18.5288C16.0754 18.6991 15.5744 18.8156 14.8411 18.8491C14.1063 18.8826 13.8715 18.8906 12.0002 18.8906C10.1287 18.8906 9.8941 18.8826 9.15912 18.8491C8.42578 18.8156 7.9248 18.6991 7.48663 18.5288C7.02667 18.3558 6.61029 18.0846 6.26605 17.7339C5.91559 17.3899 5.64441 16.9733 5.47137 16.5135C5.30109 16.0754 5.18445 15.5744 5.15112 14.8411C5.11725 14.1061 5.10938 13.8713 5.10938 12C5.10938 10.1287 5.11725 9.89392 5.15094 9.15912C5.18427 8.4256 5.30072 7.9248 5.47101 7.48645C5.64404 7.02667 5.91541 6.61011 6.26605 6.26605C6.61011 5.91541 7.02667 5.64423 7.48645 5.47119C7.9248 5.3009 8.4256 5.18445 9.15912 5.15094C9.89392 5.11743 10.1287 5.10938 12 5.10938C13.8713 5.10938 14.1061 5.11743 14.8409 5.15112C15.5744 5.18445 16.0752 5.3009 16.5135 5.47101C16.9733 5.64404 17.3899 5.91541 17.7341 6.26605C18.0846 6.61029 18.356 7.02667 18.5288 7.48645C18.6993 7.9248 18.8157 8.4256 18.8492 9.15912C18.8828 9.89392 18.8906 10.1287 18.8906 12C18.8906 13.8713 18.8828 14.1061 18.8491 14.8409Z" fill="#475FA9"/>
+</svg></a></li>
+              <li class="social__item"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 0C5.37361 0 0 5.37361 0 12C0 18.6264 5.37361 24 12 24C18.6264 24 24 18.6264 24 12C24 5.37361 18.6264 0 12 0ZM18.0202 9.18155V10.8064C17.254 10.8067 16.5096 10.6565 15.8075 10.3603C15.356 10.1697 14.9354 9.92414 14.5507 9.62737L14.5622 14.6286C14.5574 15.7548 14.1119 16.8129 13.3055 17.6099C12.6492 18.2587 11.8177 18.6712 10.9163 18.8048C10.7046 18.8361 10.489 18.8522 10.2711 18.8522C9.30623 18.8522 8.39025 18.5396 7.64095 17.963C7.49995 17.8544 7.36509 17.7367 7.2367 17.6099C6.36277 16.7461 5.91211 15.5755 5.988 14.3439C6.04589 13.4065 6.42122 12.5124 7.04691 11.8117C7.87472 10.8844 9.03281 10.3697 10.2711 10.3697C10.489 10.3697 10.7046 10.3861 10.9163 10.4175V11.0182V12.6894C10.7155 12.6232 10.5011 12.5867 10.2778 12.5867C9.14648 12.5867 8.23125 13.5097 8.24817 14.6418C8.25891 15.3662 8.65458 15.9994 9.23817 16.3484C9.51244 16.5125 9.82795 16.6141 10.1647 16.6326C10.4285 16.647 10.6818 16.6103 10.9163 16.5329C11.7246 16.2659 12.3077 15.5067 12.3077 14.6113L12.3104 11.2622V5.14781H14.548C14.5501 5.36953 14.5726 5.58586 14.6145 5.79548C14.7833 6.64397 15.2616 7.38009 15.9272 7.88194C16.5076 8.3197 17.2304 8.5792 18.0137 8.5792C18.0142 8.5792 18.0207 8.5792 18.0201 8.57869V9.18155H18.0202Z" fill="#475FA9"/>
+</svg>
+              </li>
+            </ul>
+          </div>
+          <div class="col adress"><i class="fab fa-medium-m position-absolute"></i>
+            <div class="row adress__title">Харківська</div>
+            <div class="row adress__subtitle-bottom">вул. Кошиця, 1/38, каб. 519/3 (5 поверх)</div>
+          </div>
+          <div class="col adress"><i class="fab fa-medium-m position-absolute"></i>
+            <div class="row adress__title">Лівобережна</div>
+            <div class="row adress__subtitle-bottom">вул. Loremipsum, 0, каб. 00 (0 поверх)</div>
+          </div>
+          <div class="col phones"><i class="fas fa-phone-alt position-absolute"></i><a class="row phone__number-bottom" href="tel:380505150001">(050) 515 00 01</a><a class="row phone__number-bottom" href="tel:380675150001">(067) 515 00 01</a></div>
+          <div class="col mail"><a class="row email" href="email:vdalo_zno@gmail.com">vdalo_zno@gmail.com</a><a class="how-to-pay" href="#">Як оплатити?</a></div>
+        </div>
+      </div>
+    </footer><!-- The Modal -->
+<div id="myModal" class="modal">
+<!-- Modal content -->
+<div class="modal-content">
+<span class="close">&times;</span><img class="modal-logo" src="images/logo__white.png" alt="">
+    <h2 class="modal__title">Дякуємо!</h2>
+    <p class="modal__text">Найближчим часом за вами зв'яжеться наш адмінастратор.</p>
+    <p class="modal__text">А поки що, запрошуємо вас підписатися на наші сторінки у соціальних мережах, де ми регулярно публікуємо актуальну і корисну інформацію про ЗНО.</p>
+    <ul class="row list-unstyled">
+      <li class="social__item-modal"><a href="#"><i class="fab fa-facebook"></i></a></li>
+      <li class="social__item-modal"><a href="#"> <i class="fab fa-instagram-square"></i></a></li>
+    </ul></div>
+<noscript data-webp><img src="/destimages/insta-1.jpg" alt=""></noscript>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
+    <script src="vendor/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js" type="text/javascript"></script>
+    <!-- Underscore-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js" type="text/javascript"></script>
+    <script src="js/app.js" type="text/javascript"></script>
+    <script src="js/common.js" type="text/javascript"></script>
+  </body>
+</html>
