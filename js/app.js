@@ -11,14 +11,14 @@ $(document).ready(function () {
       slidesToShow: 1,
    });
 });
-// $(document).ready(function () {
-//    $('.testimonials__slider-wrapper').slick({
-//       dots: true,
-//       // autoplay: true,
-//       // autoplaySpeed: 2000,
-//       slidesToShow: 2,
-//    });
-// });
+$(document).ready(function () {
+   $('.testimonials__slider-wrapper').slick({
+      dots: true,
+      // autoplay: true,
+      // autoplaySpeed: 2000,
+      slidesToShow: 2,
+   });
+});
 var acc = document.getElementsByClassName("questions__item-title");
 var i;
 
