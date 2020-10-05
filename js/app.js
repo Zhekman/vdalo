@@ -17,6 +17,14 @@ $(document).ready(function () {
       // autoplay: true,
       // autoplaySpeed: 2000,
       slidesToShow: 2,
+      responsive: [
+         {
+            breakpoint: 900,
+            settings: {
+               slidesToShow: 1
+            }
+         }
+      ]
    });
 });
 var acc = document.getElementsByClassName("questions__item-title");
